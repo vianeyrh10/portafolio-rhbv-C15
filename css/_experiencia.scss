@@ -1,0 +1,46 @@
+/******  INICIO EXPERIENCIA  ******/
+/*carrusel*/
+/*tamaño de las img*/
+.carousel-inner img {
+    width: 100%;
+}
+/*altura carrusel*/
+.carousel-inner{
+    height: 550px;
+}
+/*subtitulos experiencia*/
+.subtitulo-exp {
+    margin-top: 40px;
+}
+/*parrafos*/
+.p-experiencia {
+    text-align: justify;
+}
+.p-1 {
+    margin: 10px;
+}
+/*imagenes*/
+.img-fam {
+    background-image: url(https://brunoticias.com/wp-content/uploads/2017/08/ESPECTACULO-AEREO-CENTENARIO-SEDENA.jpg);
+}
+.img-walmart {
+    background-image: url(https://www.liderempresarial.com/wp-content/uploads/2020/04/walmart.jpg);
+}
+.img-ba {
+    background-image: url(http://www.kratosedificaciones.com.mx/wp-content/uploads/2016/06/aurrera-express-villaalegre.jpg);
+}
+.img-fam, .img-walmart, .img-ba {
+    height: 300px;
+    min-width: 420px;
+    background-size: cover; /*Se adapta al tamaño*/
+    background-position: center;
+    border-radius: 5px; 
+    box-shadow: -1px 1px 8px 0px var(--color1);
+}
+.img-fam:hover, 
+.img-walmart:hover, 
+.img-ba:hover {
+    transform: scale(1.10);
+    transition: all 1s;
+    filter: grayscale(100%);
+}

@@ -1,0 +1,38 @@
+/******  INICIO HEADER  ******/
+header {
+    font-family: 'Francois One', sans-serif;
+    font-size: 1.5rem;
+}
+/*color fondo header*/
+header > .bg-dark {
+    background-image: linear-gradient(to top, #5f72bd 0%, #9b23ea 100%) !important;
+}
+/*color fuente menu y links*/
+header > .navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand{
+    color: var(--color1);
+}
+header > .navbar-dark .navbar-nav .nav-link {
+    color: var(--color1);
+}
+/*hover logo y links*/
+header > .navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover{
+    color: rgba(0, 0, 0, 0.5);
+}
+header > .navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(0, 0, 0, 0.5);
+}
+/*submenu bg*/
+header > .navbar-dark .navbar-nav .dropdown-menu {
+    background-image: linear-gradient(to top, #5f72bd 0%, #9b23ea 100%);
+}
+/*submenu hover*/
+.dropdown-item:focus, .dropdown-item:hover {
+    color: var(--color1);
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+/*links submenu*/
+.dropdown-item {
+    color: var(--color1);
+    text-align: center;
+}

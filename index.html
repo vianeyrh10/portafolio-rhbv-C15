@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="portfolio HTML JS CSS">
+    <meta name="description" content="Portafolio Vianey informacion personal sobre ella y servicios">
+    <!-- LINK CSS BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- LINK FONTAWASOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- LINK ANIMACIONES  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- LINK CSS PROYECTO -->
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Miniportafolio</title>
+</head>
+<body>
+    <!-- INICIO HEADER -->
+    <header id="header">
+        <!-- navbar navbar-expand-md bg-dark navbar-dark -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="/index.html">MINIPORTAFOLIO</a>
+        
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                Sobre mí
+            </a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#titulo-sobremi">Sobre mí</a>
+                <a class="dropdown-item" href="#titulo-servicios">Servicios</a>
+            </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./html/experiencia.html">Experiencia</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./html/galeria.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./html/contacto.html">Contacto</a>
+            </li>
+            </ul>
+        </div>
+        </nav>
+    </header>
+    <!-- FIN HEADER -->
+    <!-- INICIO MAIN -->
+    <div class="container-fluid">
+        <main id="main" class="row" >
+            <video src="https://miew.pt/wp-content/uploads/2021/03/waves-1.mp4" muted autoplay loop ></video>
+
+            <div class="foto col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <img src="assets/img/Foto.png" alt="">
+            </div>
+            <div class="presentacion col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <h1>HOLA SOY<span> VIANEY</span></h1>
+                <h3>Ing. en Informática</h3>
+                <p>Soy estudiante del 8vo semestre en el Tecnologico de Estudios Superiores de Ecatepec.
+                    Tambien estoy haciendo una carrera en Coder House de Desarrollo UX/UI.
+                </p>
+                <a href="#titulo-sobremi">Leer más</a>
+            </div>
+        </main>
+    </div>
+    <!-- FIN MAIN -->
+    
+
+    <div class="container-fluid">
+        <!-- INICIO SOBRE MI -->
+        <h1 id="titulo-sobremi" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">SOBRE <span>MÍ</span></h1>
+        <section class="row">
+            <div id="sobremi" class="col-xs-12 col-sm-12 col-md-6 col-lg-6" data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi neque non, quam dignissimos similique aliquam velit suscipit quaerat aliquid, labore officia eaque aspernatur magni, sed maiores est. Harum voluptatem, beatae repudiandae, fugiat, dolorum veritatis autem non perspiciatis laborum dolorem amet provident magnam atque culpa fugit itaque! Dolore dicta cumque vitae ducimus exercitationem saepe ipsa aspernatur, omnis sint expedita minus eaque! Reiciendis, saepe sit eveniet, soluta officiis quidem quisquam corrupti unde natus, debitis repellat magni cumque quod itaque nesciunt facere sequi explicabo quo! Necessitatibus accusantium dolores dolor, quos porro quas tempora eaque, excepturi quam aut cumque, inventore doloribus adipisci modi provident?</p>
+                <ul>
+                    <li>Nombre:     <span> Brenda Vianey Ramirez Hernandez</span></li>
+                    <li>Edad:       <span>27 años</span></li>
+                    <li>Ubicación:  <span>Ciudad de México</span></li>
+                    <li>Teléfono:   <span>(55)-11-11-11-11</span></li>
+                    <li>E-mail:     <span>bvramirez.hernandez@gmail.com</span></li>
+                </ul>
+                <a href="">Descargar CV</a>
+            </div>
+
+            <item id="foto2" class="col-xs-12 col-sm-12 col-md-6 col-lg-6" data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom">
+                <img src="assets/img/Foto3.png" alt="">
+            </item>
+        </section>
+        <!-- FIN SOBRE MI -->
+        <!-- INICIO SERVICIOS -->
+        <h1 id="titulo-servicios" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">MIS <span>SERVICIOS</span></h1>
+        
+        <section class="row">
+            <div class="card text-white bg-dark mb-3 d-inline-block col-xs-12 col-sm-6 col-md-3" style="max-width: auto;" data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom">
+                <div class="card-header">Diseño creativo</div>
+                
+                <div class="card-body">
+                    <h4 class="card-title">Diseño creativo</h4>
+                    <i class="fas fa-palette"></i>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="card text-white bg-dark mb-3 d-inline-block col-xs-12 col-sm-6 col-md-3" style="max-width: auto;" data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom">
+                <div class="card-header">Diseño web</div>
+                <div class="card-body">
+                    <h4 class="card-title">Diseño grafico</h4>
+                    <i class="fas fa-vector-square"></i>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="card text-white bg-dark mb-3 d-inline-block col-xs-12 col-sm-6 col-md-3" style="max-width: auto;" data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom">
+                <div class="card-header">Interfaces de usuario</div>
+                <div class="card-body">
+                    <h4 class="card-title">Interfaces</h4>
+                    <i class="fas fa-desktop"></i>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="card text-white bg-dark mb-3 d-inline-block col-xs-12 col-sm-6 col-md-3" style="max-width: auto;" data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom">
+                <div class="card-header">Editora de videos</div>
+                <div class="card-body">
+                    <h4 class="card-title">Editora de videos</h4>
+                    <i class="fas fa-video"></i>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </section>
+        <!-- FIN SERVICIOS -->
+    </div>
+
+    <!-- INICIO FOOTER -->
+    <h1 id="titulo-redes">MIS <span>REDES</span></h1>
+    <footer class="footer" id="redes">
+        <ul class="redes">
+            <li>
+                <a href="https://www.linkedin.com/in/bvramirezh/" target="_blank" class="linked">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/vivi.devil/" target="_blank" class="insta">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/ViviDevil10" target="_blank" class="face">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com/bvrhdz" target="_blank" class="tw">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+        </ul>
+        <p><small>Sitio hecho por Vianey ☕</small></p>
+    </footer>
+    <!-- FIN FOOTER -->
+
+    <!--LINK LIBRERIAS JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

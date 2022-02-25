@@ -1,0 +1,9 @@
+NOMBRE: BREDA VIANEY RAMIREZ HERNANDEZ
+
+MAXIN: Lo agregue en las fuentes para darles estilo y tambien en los atributos de mi galeria.
+
+EXTEND: Se aplico en las cards para darles el mismo estilo que el encabezado de las mismas cards 
+
+MAPA{MAP-GET}: Se aplico en la paleta de colores declarada en estilos.scss y se llamo desde _contacto.scss en color y background
+
+En cuanto al SEO se agregaron los metas correspondientes a cada pagina.

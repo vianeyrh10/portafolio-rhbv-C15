@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="portfolio HTML JS CSS">
+    <meta name="description" content="Portafolio Vianey aqui podras ponerte en contacto y dejar un mensaje">
+    <!-- LINK CSS BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- LINK FONTAWASOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- LINK CSS PROYECTO -->
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <!-- INICIO HEADER -->
+    <header id="header">
+        <!-- navbar navbar-expand-md bg-dark navbar-dark -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="../index.html">MINIPORTAFOLIO</a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="experiencia.html">Experiencia</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="galeria.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+            </ul>
+        </div>
+        </nav>
+    </header>
+    <!-- FIN HEADER -->
+
+    <!-- INICIO CONTACTO  -->
+    <article id="contacto">
+        <div class="contacto">
+            <h1 class="logo-contacto">Contacto</h1>
+            <div class="contacto-group">
+                <div class="contacto-form">
+                    <h3 >Contactame</h3>
+                    <form action="">
+                        <p>
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" name="nombre" id="nombre">
+                        </p>
+                        <p>
+                            <label for="email">E-mai:</label>
+                            <input type="text" name="email" id="email">
+                        </p>
+                        <p>
+                            <label for="telefono">Telefono:</label>
+                            <input type="tel" name="telefono" id="telefono">
+                        </p>
+                        <p>
+                            <label for="asunto">Asunto:</label>
+                            <input type="text" name="asunto" id="asunto">
+                        </p>
+                        <p class="block">
+                            <label for="mensaje">Mensaje:</label>
+                            <textarea cols="50" rows="10"></textarea>
+                        </p>
+                        <p class="block">
+                            <button type="submit">Enviar</button>
+                        </p>
+                    </form>
+                </div>
+                <div class="contacto-info">
+                    <h4>Mas informacion</h4>
+                    <ul class="info">
+                        <li> Calle Oro</li>
+                        <li> 11 11 11 11 11</li>
+                        <li>bvramirez.hernandez@gmail.com</li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti expedita maiores aut vel accusantium possimus voluptates rerum, nesciunt sequi pariatur!</p>
+                    <p>Ing. Informatica Brenda Vianey Ramirez</p>
+                </div>
+            </div>
+        </div>     
+    </article>
+    <!-- FIN CONTACTO     -->
+
+    <!-- INICIO FOOTER -->
+    <h1 id="titulo-redes">MIS <span>REDES</span></h1>
+    <footer class="footer" id="redes">
+        
+        <ul class="redes">
+            <li>
+                <a href="https://www.linkedin.com/in/bvramirezh/" target="_blank" class="linked">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/vivi.devil/" target="_blank" class="insta">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/ViviDevil10" target="_blank" class="face">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com/bvrhdz" target="_blank" class="tw">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+        </ul>
+        <p><small>Sitio hecho por Vianey ☕</small></p>
+    </footer>
+    <!-- FIN FOOTER -->
+
+    <!--LINK LIBRERIAS JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+</body>
+</html>

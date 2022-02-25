@@ -1,0 +1,177 @@
+/*NOMBRE: RAMIREZ HERNANDEZ BRENDA VIANEY*/
+/*FUENTES*/
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed&display=swap');
+
+/*IMPORTACIONES*/
+@import "header";
+@import "experiencia";
+@import "galeria";
+@import "contacto";
+
+/*USO DE VARIABLES */
+$font1:'Francois One', sans-serif;
+$font2:'IBM Plex Sans Condensed', sans-serif;
+/*COLORES*/
+$color0:black;
+$color1:white;
+$color2:#5b33ee;
+$color3:#5f72bd;
+$color4:#9b23ea;
+
+/*MAPA PALETA DE COLORES*/
+$colores: (
+    'color0':$color0,
+    'color1':$color1,
+    'color2':$color2,
+    'color3':$color3,
+    'color4':$color4
+);
+
+/*MIXIN*/
+@mixin fontstyle {
+    color: $color1;
+}
+/*titulos y menu*/
+h1 {
+    font-family: $font1;
+    @include fontstyle();
+}
+/*subtitulos y texto*/
+h2, h3, p {
+    font-family: $font2;
+    @include fontstyle();
+}
+span {
+    color: $color2;
+}
+body {
+    background-color: $color0;
+    @include fontstyle();
+}
+/******  INICIO MAIN  ******/
+main {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foto {
+    display:flex;
+    justify-content: center;
+}
+.row > .presentacion {
+    text-align: center;
+    margin: auto;
+    padding: 18px;
+    color: $color1;
+    background-color: rgba(0, 0, 0, 0.4);
+    /*btn leer más con anidacion*/
+    a {
+        text-decoration: none;
+        color: $color1;
+        background-color: $color2;
+        padding: 10px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-weight: bolder;
+    } 
+    a:hover {
+        color: $color2;
+        background-color: $color1;
+    }
+}
+video {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    /*Ocupa el espacio del contenedor padre {main}*/
+    object-fit: cover;
+}
+/******  INICIO SOBRE MI ******/
+#sobremi > p {
+    text-align: justify;
+    margin: 5px;
+}
+#sobremi > ul{
+    display: block;
+    text-decoration: none;
+    list-style: none;
+    color: $color1;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+/*btn descargar cv*/
+#sobremi > a {
+    text-decoration: none;
+    color: map-get($map: $colores, $key: "color1");
+    padding: 10px;
+    margin-top: 60px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: $color2;
+    font-weight: bolder;
+    background-color: $color1;
+    
+}
+#sobremi > a:hover {
+    color: map-get($map: $colores, $key: 'color1');
+    background-color: map-get($map: $colores, $key: 'color2');
+}
+#foto2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/******  MIS SERVICIOS  ******/
+.card {
+    background-image: linear-gradient(to top, #5f72bd 0%, #9b23ea 100%);
+    i {
+        font-size: 3rem;
+    }
+}
+.card-header{
+    background-color: map-get($map: $colores, $key: 'color0');  
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;  
+}
+.card-title {
+    @extend .card-header;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+/******  TITULOS INDEX  ******/
+#titulo-sobremi,
+#titulo-servicios,
+#titulo-experiencia,
+#titulo-redes,
+#titulo-galeria{
+    margin: 50px;
+    text-align: center;
+}
+/******  INICIO FOOTER  ******/
+footer{
+    text-align: center;
+}
+/*Anidación*/
+ul {
+    text-decoration: none;
+    list-style: none;
+    display:flex;
+    justify-content: space-evenly;
+    a > i {
+        color: $color1;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+    i:hover {
+        color: $color2;
+    }
+}
+
