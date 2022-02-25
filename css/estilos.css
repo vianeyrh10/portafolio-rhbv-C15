@@ -138,7 +138,7 @@ header > .navbar-dark .navbar-nav .dropdown-menu {
 }
 
 #img1 {
-  background-image: url(/assets/img/galeria/Lap1.jpg);
+  background-image: url(../assets/img/galeria/Lap1.jpg);
   grid-column: 1/-1;
   background-size: cover;
   background-position: center;
@@ -146,7 +146,7 @@ header > .navbar-dark .navbar-nav .dropdown-menu {
 }
 
 #img2 {
-  background-image: url(/assets/img/galeria/Lap2.jpg);
+  background-image: url(../assets/img/galeria/Lap2.jpg);
   grid-column: 1/-1;
   background-size: cover;
   background-position: center;
@@ -154,7 +154,7 @@ header > .navbar-dark .navbar-nav .dropdown-menu {
 }
 
 #img3 {
-  background-image: url(/assets/img/galeria/Lap3.jpg);
+  background-image: url(../assets/img/galeria/Lap3.jpg);
   grid-column: 1/-1;
   background-size: cover;
   background-position: center;
@@ -162,7 +162,7 @@ header > .navbar-dark .navbar-nav .dropdown-menu {
 }
 
 #img4 {
-  background-image: url(/assets/img/galeria/Lap4.jpg);
+  background-image: url(../assets/img/galeria/Lap4.jpg);
   grid-column: 1/-1;
   background-size: cover;
   background-position: center;
@@ -170,7 +170,7 @@ header > .navbar-dark .navbar-nav .dropdown-menu {
 }
 
 #img5 {
-  background-image: url(/assets/img/galeria/Lap5.jpg);
+  background-image: url(../assets/img/galeria/Lap5.jpg);
   grid-column: 1/-1;
   background-size: cover;
   background-position: center;
@@ -178,7 +178,7 @@ header > .navbar-dark .navbar-nav .dropdown-menu {
 }
 
 #img6 {
-  background-image: url(/assets/img/galeria/Lap6.jpg);
+  background-image: url(../assets/img/galeria/Lap6.jpg);
   grid-column: 1/-1;
   background-size: cover;
   background-position: center;
@@ -186,7 +186,7 @@ header > .navbar-dark .navbar-nav .dropdown-menu {
 }
 
 #img7 {
-  background-image: url(/assets/img/galeria/Lap7.jpg);
+  background-image: url(../assets/img/galeria/Lap7.jpg);
   grid-column: 1/-1;
   background-size: cover;
   background-position: center;
@@ -194,7 +194,7 @@ header > .navbar-dark .navbar-nav .dropdown-menu {
 }
 
 #img8 {
-  background-image: url(/assets/img/galeria/Lap8.jpg);
+  background-image: url(../assets/img/galeria/Lap8.jpg);
   grid-column: 1/-1;
   background-size: cover;
   background-position: center;
